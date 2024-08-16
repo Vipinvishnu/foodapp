@@ -1,0 +1,10 @@
+.login-popup-condition{
+    display: flex;
+    align-items:start;
+    gap: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.login-popup-condition input{
+    margin-top: 5px;
+}

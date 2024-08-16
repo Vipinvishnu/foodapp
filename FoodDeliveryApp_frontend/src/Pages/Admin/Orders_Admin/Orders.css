@@ -1,0 +1,19 @@
+
+  
+  .orders-container {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  .main {
+    display: flex;
+    flex-grow: 1;
+  }
+  
+
+  
+  .main-content {
+    flex-grow: 1;
+    
+  }

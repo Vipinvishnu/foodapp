@@ -1,0 +1,85 @@
+.add-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.main {
+  display: flex;
+  flex-grow: 1;
+}
+
+
+
+.main-content {
+  flex-grow: 1;
+
+}
+
+.add {
+  width: 70%;
+  margin-left: max(5vw, 25px);
+  margin-top: 30px;
+  color: #6d6d6d;
+  font-size: 14px;
+
+}
+
+.add form {
+  gap: 23px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  border: 2px black;
+
+
+}
+
+.add-img-upload img {
+  width: 120px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.add-product-name,
+.add-product-descritption {
+  width: max(40%, 280px);
+}
+
+.add-product-name input,
+.add-product-descritption textarea {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.add-category-price {
+  display: flex;
+  gap: 25px;
+}
+
+.add-category-price select,
+.add-category-price input {
+  max-width: 87px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+
+}
+
+.add-btn {
+  max-width: 120px;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.add p {
+  font-weight: 500;
+}

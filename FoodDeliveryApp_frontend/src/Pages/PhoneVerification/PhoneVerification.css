@@ -1,0 +1,17 @@
+#otpInput{
+    border-color: black; 
+    border-width: 3px;
+    text-align: center;
+}
+#gbtn{
+    margin-top:15px;
+    background-color: black;
+    border: none;
+    width: 125px;
+    height: 40px;
+}
+#pnbtn{
+  border-width: 3px;
+
+}
+

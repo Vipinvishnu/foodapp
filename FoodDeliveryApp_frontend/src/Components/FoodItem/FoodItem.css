@@ -1,0 +1,90 @@
+
+.food-display-container {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-left: 14px;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .food-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px; 
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .food-list {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    }
+  }
+  
+  .food-card {
+    transition: transform 0.2s ease-in-out;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .food-card:hover {
+    transform: scale(1.05);
+    border-color: #007bff;
+  }
+  
+  .card-img-top {
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-text p {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .food-item-counter {
+    background-color: #f9faf8; 
+    border-radius: 8px; 
+    padding: 5px 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease;
+  }
+  
+  .food-item-counter:hover {
+    /* background-color: #e9ecef;  */
+  }
+  
+  .counter-icon {
+    width: 1.5rem;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .counter-icon:hover {
+    transform: scale(1.1);
+}
